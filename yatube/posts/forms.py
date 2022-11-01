@@ -6,8 +6,8 @@ from .models import Post
 class PostForm(forms.ModelForm):
     text = forms.CharField(widget=forms.Textarea,
                            required=True,
-                           label="Текст поста",
-                           help_text="Текст нового поста")
+                           label='Текст поста',
+                           help_text='Текст нового поста')
 
     class Meta:
         model = Post
