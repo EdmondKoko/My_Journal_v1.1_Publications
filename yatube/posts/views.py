@@ -92,5 +92,4 @@ def post_edit(request, post_id):
             'is_edit': is_edit,
         }
         return render(request, template, context)
-    if post.author != request.user:
-        return redirect('posts:post_detail', post_id)
+    return redirect('posts:post_detail', post_id)
