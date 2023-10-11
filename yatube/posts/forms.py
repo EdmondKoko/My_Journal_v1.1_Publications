@@ -4,6 +4,7 @@ from .models import Post
 
 
 class PostForm(forms.ModelForm):
+    """Создание формы модели Post."""
     text = forms.CharField(widget=forms.Textarea,
                            required=True,
                            label='Текст поста',
