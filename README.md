@@ -53,13 +53,13 @@
 Клонируем проект:
 
 ```bash
-git clone https://github.com/edmondkoko/hw03_forms.git
+git clone https://github.com/edmondkoko/yatube_v1.1_publications.git
 ```
 
 Переходим в папку с проектом:
 
 ```bash
-cd hw03_forms
+cd yatube_v1.1_publications
 ```
 
 Устанавливаем виртуальное окружение:
