@@ -4,7 +4,7 @@ from .models import Post, Group
 
 
 class PostAdmin(admin.ModelAdmin):
-    """Регистрация модели Post в админке."""
+    """Для модели Post создана кастомная админка. Зарегистрирована модель Group."""
     list_display = (
         'pk',
         'text',
