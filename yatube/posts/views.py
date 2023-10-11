@@ -67,7 +67,7 @@ def post_detail(request, post_id):
 
 @login_required
 def post_create(request):
-    """Страница создания публикации."""
+    """Страница создания публикации. Доступна если пользователь авторизован."""
     template = 'posts/create_post.html'
     form = PostForm(request.POST or None)
     if form.is_valid():
@@ -83,7 +83,7 @@ def post_create(request):
 
 @login_required
 def post_edit(request, post_id):
-    """Страница редактирования публикации."""
+    """Страница редактирования публикации. Доступна если пользователь авторизован."""
     is_edit = True
     template = 'posts/create_post.html'
     post = get_object_or_404(Post, pk=post_id)
