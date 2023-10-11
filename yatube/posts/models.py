@@ -5,6 +5,7 @@ User = get_user_model()
 
 
 class Group(models.Model):
+    """Создание модели Group."""
     title = models.CharField(max_length=200,
                              verbose_name='Группа')
     slug = models.SlugField(max_length=50, unique=True,
@@ -16,6 +17,7 @@ class Group(models.Model):
 
 
 class Post(models.Model):
+    """Создание модели Post."""
     text = models.TextField(verbose_name='Текст')
     pub_date = models.DateTimeField(auto_now_add=True)
     author = models.ForeignKey(
