@@ -1,11 +1,12 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python&logoColor=yellow)
 ![Django](https://img.shields.io/badge/Django-2.2.9-red?style=for-the-badge&logo=django&logoColor=blue)
 ![SQLite](https://img.shields.io/badge/SQLite-blueviolet?style=for-the-badge&logo=postgresql&logoColor=yellow)
+![CSS](https://img.shields.io/badge/CSS-blueviolet?style=for-the-badge&logo=postgresql&logoColor=yellow)
 
 # Yatube - социальная сеть для публикации личных дневников. 
 
 ## Описание:
-Расширение проекта Yatube
+### Расширение проекта Yatube:
 
 В проекте реализовано:
 1. Создано и подключено приложение core:
@@ -51,13 +52,13 @@
 Клонируем проект:
 
 ```bash
-git clone https://github.com/edmondkoko/hw02_community.git
+git clone https://github.com/edmondkoko/hw03_forms.git
 ```
 
 Переходим в папку с проектом:
 
 ```bash
-cd hw02_community
+cd hw03_forms
 ```
 
 Устанавливаем виртуальное окружение:
