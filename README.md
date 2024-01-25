@@ -4,10 +4,10 @@
 ![Pytest-django](https://img.shields.io/badge/pytest-django==3.8.0-orange?style=for-the-badge&logo=nginx&logoColor=green)
 
 
-# Yatube - социальная сеть для публикации личных дневников. 
+# My_Journal - социальная сеть для публикации личных дневников. 
 
 ## Описание:
-### Расширение проекта Yatube:
+### Расширение проекта My_Journal:
 
 В проекте реализовано:
 1. Создано и подключено приложение core:
@@ -53,13 +53,13 @@
 Клонируем проект:
 
 ```bash
-git clone https://github.com/edmondkoko/yatube_v1.1_publications.git
+git clone https://github.com/edmondkoko/My_Journal_v1.1_Publications.git
 ```
 
 Переходим в папку с проектом:
 
 ```bash
-cd yatube_v1.1_publications
+cd My_Journal_v1.1_Publications
 ```
 
 Устанавливаем виртуальное окружение:
